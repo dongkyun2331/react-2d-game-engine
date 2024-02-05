@@ -17,7 +17,7 @@ const GameEngine = ({ updateCallback }) => {
     update();
   }, [updateCallback]);
 
-  return <canvas ref={canvasRef} width={1920} height={960} />;
+  return <canvas ref={canvasRef} width={1900} height={900} />;
 };
 
 export default GameEngine;
